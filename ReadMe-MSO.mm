@@ -109,7 +109,7 @@
 </node>
 <node TEXT="README.md" STYLE_REF="MarkdownHelperNode" ID="ID_483221116" LINK="file:/C:/Users/Edo/Documents/GitHub/Freeplane_Map-Saving-Options/README.md">
 <attribute_layout NAME_WIDTH="128.25 pt" VALUE_WIDTH="128.25 pt"/>
-<attribute NAME="headersToUnderline" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
+<attribute NAME="headersToUnderline" VALUE="0" OBJECT="org.freeplane.features.format.FormattedNumber|0|#0.####"/>
 <attribute NAME="hideFolded" VALUE="false"/>
 <attribute NAME="headerNumbering" VALUE="true"/>
 <attribute NAME="topHeadersNumbered" VALUE="false"/>
