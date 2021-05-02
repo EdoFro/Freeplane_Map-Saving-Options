@@ -3,7 +3,7 @@
 <attribute_registry SHOW_ATTRIBUTES="selected"/>
 <node TEXT="ReadMe&#xa;MapSavingOptions" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_696401721">
 <hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="0.75">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="0.8">
     <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" followedMapLocation="file:/C:/Users/Edo/AppData/Roaming/Freeplane/1.9.x/templates/vis01%20light_nord_template%20vEdo.mm" followedMapLastTime="1616419839141" mapUsesOwnSaveOptions="true" save_folding="never_save_folding" save_last_visited_node="true" save_modification_times="false"/>
 
 <map_styles>
@@ -262,7 +262,7 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="latest release" ID="ID_387295666"/>
+<node TEXT="latest release" ID="ID_387295666" LINK="https://github.com/EdoFro/Freeplane_Map-Saving-Options/releases/latest"/>
 </node>
 </node>
 </node>

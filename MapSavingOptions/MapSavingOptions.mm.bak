@@ -8,7 +8,7 @@
 <attribute NAME="author" VALUE="EdoFro"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="v1.8.0"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
-<attribute NAME="updateUrl" VALUE=""/>
+<attribute NAME="updateUrl" VALUE="https://github.com/EdoFro/Freeplane_Map-Saving-Options/releases/latest"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -149,7 +149,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&apos;Map Saving Options&apos; is a Freeplane AddOn that gives you the possibility to add saving preferences to each of your maps.&#xa;This way you can define if a map have to save information of any of these:&#xa; - folded and unfolded nodes&#xa; - selected node when saving&#xa; - Creation and Modification times of each node&#xa;&#xa;For each map you can define if it will use the Freeplane preferences or its own.&#xa;&#xa;You can define for the map to use its own preferences in some of these options and use the Freeplane preferences for the others.&#xa;&#xa;In Freeplane Preferences you can also choose if the user has to define when saving a map for the first time all this or if it uses the Freeplane defaults still the user defines something different for the map." ID="ID_1178934249"/>
+<node TEXT="&apos;Map Saving Options&apos; is a Freeplane AddOn that gives you the possibility to add saving preferences to each of your maps.&#xa;Mindmaps can be used for different purposes and saving information like node&apos;s modification times depends most of the times on the map itself, its content and use case.&#xa;With this AddOn you can define if a map have to save the information of any of these:&#xa;- folded and unfolded nodes&#xa;- selected node when saving&#xa;- Creation and Modification times of each node&#xa;This way, you can define for each map if it will use the central Freeplane preferences, its own or a mix of both." ID="ID_1178934249"/>
 </node>
 <node TEXT="changes" POSITION="left" ID="ID_295987208">
 <edge COLOR="#0000ff"/>

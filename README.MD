@@ -28,7 +28,7 @@ Installing a new AddOn is very straight forward in Freeplane.
 
 You only need to follow these **simple steps**:
 
-1. Download the <br>----<br>--- No link found!! ---<br>---- of the addOn
+1. Download the [latest release](https://github.com/EdoFro/Freeplane_Map-Saving-Options/releases/latest) of the addOn
 1. Open it in Freeplane
 1. A first dialog will open.<br>![Install 001.png](Resources/Install%20001.png)
 1. Click **Yes** and follow the instructions.
