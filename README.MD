@@ -1,5 +1,3 @@
------
-
 # Description
 
 **'Map Saving Options'** is a **Freeplane AddOn** that gives you the possibility to add **saving preferences** to **each** of your **maps**.
@@ -14,8 +12,6 @@ With this AddOn you can define if a map have to save the information of any of t
 
 This way, you can define for each map if it will use the **central Freeplane preferences**, its own or a mix of both.
 
------
-
 # Do I need this AddOn?
 
 I don't know if you do, but I do! That's why I created it. Let me explain.
@@ -25,8 +21,6 @@ I use Freeplane for multiple pourposes and work with different types of maps.
 For example, I use **maps for projects** I work in and use Freeplane to anotate all meetings agreements, pending tasks, relevant information, received data and files, etc. In these types of maps to have the creation and modification times of nodes can be very useful when searching for anotations done in a specific day or week for example.
 
 I also use **maps as workbooks**, where the modification time information has no use. But sometimes I have to compare different versions of the same map and this extra information only makes things harder (for example when using **GIT** versioning and commiting changes)
-
------
 
 # Installing the AddOn
 
@@ -89,21 +83,15 @@ In **Freeplane Preferences** you can also choose if when saving a map for the fi
 
 ![MSO_Image_004.png](Resources/MSO_Image_004.png)
 
------
-
 # This AddOn is still beta
 
 So it may have a lot of bugs. Use it at your own risk. (**Freeplane** has an excelent "*Undo*" implementation, so the risk is in fact very limited)
 
 Please report any bug in this addOn in its GitHub page
 
------
-
 # Your Help needed
 
 I'm not very good at writing in english, so if you find any error please tell me (and please explain me how to write it correctly)
-
------
 
 # About Freeplane
 
