@@ -36,7 +36,7 @@ You only need to follow these **simple steps**:
 
 1. Download the <br>----<br>--- No link found!! ---<br>---- of the addOn
 1. Open it in Freeplane
-1. A first dialog will open.<br>![Install 001.png](file:/C:/Users/Edo/Documents/GitHub/Freeplane_Map-Saving-Options/Resources/Install%20001.png)
+1. A first dialog will open.<br>![Install 001.png](Resources/Install%20001.png)
 1. Click **Yes** and follow the instructions.
 1. Close and reopen Freeplane to complete the installation.
 
@@ -54,7 +54,7 @@ After installing the Addon and restarting Freeplane, a new menu will appear in t
 
 You can get to the new commands by selecting the menu **Edo Tools / Map Saving Options**
 
-![MSO_Image_001.png](file:/C:/Users/Edo/Documents/GitHub/Freeplane_Map-Saving-Options/Resources/MSO_Image_001.png)
+![MSO_Image_001.png](Resources/MSO_Image_001.png)
 
 -----
 
@@ -62,13 +62,13 @@ You can get to the new commands by selecting the menu **Edo Tools / Map Saving O
 
 When selecting the "change saving options for this map" command, A new dialog opens:
 
-![MSO_Image_002.png](file:/C:/Users/Edo/Documents/GitHub/Freeplane_Map-Saving-Options/Resources/MSO_Image_002.png)
+![MSO_Image_002.png](Resources/MSO_Image_002.png)
 
 Here you can define if the current map will have its own saving preferences or if it should use the ones defined in the **Freeplane Preferences Dialog**.
 
 If you decide that it should have its own preferences, then a second dialog opens. There you can define the saving options for the map:
 
-![MSO_Image_003.png](file:/C:/Users/Edo/Documents/GitHub/Freeplane_Map-Saving-Options/Resources/MSO_Image_003.png)
+![MSO_Image_003.png](Resources/MSO_Image_003.png)
 
 -----
 
@@ -79,7 +79,7 @@ When using the saving command in the menu, the AddOn uses the defined preference
 
 After saving the status bar shows a message indicating the preferences used for saving the map:
 
-![MSO_Image_005.png](file:/C:/Users/Edo/Documents/GitHub/Freeplane_Map-Saving-Options/Resources/MSO_Image_005.png)
+![MSO_Image_005.png](Resources/MSO_Image_005.png)
 
 -----
 
@@ -87,7 +87,7 @@ After saving the status bar shows a message indicating the preferences used for 
 
 In **Freeplane Preferences** you can also choose if when saving a map for the first time, you should be asked for the saving preferences of the map or not.
 
-![MSO_Image_004.png](file:/C:/Users/Edo/Documents/GitHub/Freeplane_Map-Saving-Options/Resources/MSO_Image_004.png)
+![MSO_Image_004.png](Resources/MSO_Image_004.png)
 
 -----
 

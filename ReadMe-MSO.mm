@@ -3,7 +3,7 @@
 <attribute_registry SHOW_ATTRIBUTES="selected"/>
 <node TEXT="ReadMe&#xa;MapSavingOptions" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_696401721">
 <hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="MapStyle" background="#f9f9f8">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="0.75">
     <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" followedMapLocation="file:/C:/Users/Edo/AppData/Roaming/Freeplane/1.9.x/templates/vis01%20light_nord_template%20vEdo.mm" followedMapLastTime="1616419839141" mapUsesOwnSaveOptions="true" save_folding="never_save_folding" save_last_visited_node="true" save_modification_times="false"/>
 
 <map_styles>
@@ -114,7 +114,7 @@
 <attribute NAME="headerNumbering" VALUE="true"/>
 <attribute NAME="topHeadersNumbered" VALUE="false"/>
 <attribute NAME="topHeaderStartingNumber" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
-<attribute NAME="fileLinksRelative" VALUE="false"/>
+<attribute NAME="fileLinksRelative" VALUE="true"/>
 <attribute NAME="lineOverHeader" VALUE="true"/>
 <attribute NAME="ignoreHeaderDetails" VALUE="true"/>
 <attribute NAME="ignoreHeaderNotes" VALUE="true"/>
@@ -291,7 +291,9 @@
 </html></richcontent>
 <node TEXT="A first dialog will open." ID="ID_996269935"/>
 <node TEXT="local image" STYLE_REF="MarkdownHelperNode" ID="ID_1428711066"><richcontent TYPE="NOTE" CONTENT-TYPE="plain/">
-    <text>= edofro.MarkDownHelper.MDH.imageLink(node, true)</text>
+    <text>= edofro.MarkDownHelper.MDH.imageLink(node, true)
+
+</text>
 </richcontent>
 <node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_802721627" LINK="#ID_783098084"/>
 </node>
@@ -321,7 +323,8 @@
       More information about Add Ons and how to install them in Freeplane can be found in the oficial $1.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="web link" STYLE_REF="MarkdownHelperNode" ID="ID_475990360"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
