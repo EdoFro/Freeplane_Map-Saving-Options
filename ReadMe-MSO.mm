@@ -1,17 +1,17 @@
 <map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <attribute_registry SHOW_ATTRIBUTES="selected"/>
-<node TEXT="ReadMe&#xa;MapSavingOptions" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_696401721">
+<node TEXT="ReadMe&#xa;MapSavingOptions" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_696401721" MAX_WIDTH="7 cm">
 <hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="0.8">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" followedMapLocation="file:/C:/Users/Edo/AppData/Roaming/Freeplane/1.9.x/templates/vis01%20light_nord_template%20vEdo.mm" followedMapLastTime="1616419839141" mapUsesOwnSaveOptions="true" save_folding="never_save_folding" save_last_visited_node="true" save_modification_times="false"/>
+<hook NAME="MapStyle" background="#f9f9f8">
+    <properties mapUsesOwnSaveOptions="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" save_folding="never_save_folding" fit_to_viewport="false" save_modification_times="false" followedMapLocation="file:/C:/Users/Edo/AppData/Roaming/Freeplane/1.9.x/templates/vis01%20light_nord_template%20vEdo.mm" followedMapLastTime="1620850721902" save_last_visited_node="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_118736178" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 px" SHAPE_VERTICAL_MARGIN="2 px" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="2 px">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-15.75 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-14.25 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="Dialog" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="horizontal" COLOR="#2e3440" WIDTH="1" DASH="SOLID"/>
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
@@ -40,16 +40,16 @@
 <font NAME="Ubuntu" SIZE="14"/>
 <edge COLOR="#bf616a"/>
 </stylenode>
-<stylenode TEXT="MarkdownHelperNode" ID="ID_155629986" COLOR="#dbffdb" BACKGROUND_COLOR="#333333" STYLE="rectangle" BORDER_WIDTH="4 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#009000">
+<stylenode TEXT="MarkdownHelperNode" ID="ID_1996555312" COLOR="#dbffdb" BACKGROUND_COLOR="#333333" STYLE="rectangle" BORDER_WIDTH="4 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#009000">
 <icon BUILTIN="emoji-1F343"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/markdown"/>
 </stylenode>
-<stylenode TEXT="MarkdownHelperLink" ID="ID_404198814" COLOR="#dbffdb" BACKGROUND_COLOR="#4c4c7f" STYLE="rectangle" BORDER_WIDTH="4 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#009000">
+<stylenode TEXT="MarkdownHelperLink" ID="ID_683367265" COLOR="#dbffdb" BACKGROUND_COLOR="#4c4c7f" STYLE="rectangle" BORDER_WIDTH="4 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#009000">
 <icon BUILTIN="emoji-1F517"/>
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" ID="ID_1209359852" COLOR="#ffffff" BACKGROUND_COLOR="#484747" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt" UNIFORM_SHAPE="true" TEXT_ALIGN="CENTER">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" ID="ID_1209359852" COLOR="#ffffff" BACKGROUND_COLOR="#484747" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="15 pt" TEXT_ALIGN="CENTER" MAX_WIDTH="4 cm" MIN_WIDTH="3 cm">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" ID="ID_144205114" COLOR="#eceff4" BACKGROUND_COLOR="#d08770" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
@@ -130,8 +130,7 @@
       = edofro.MarkDownHelper.MDH.document(node)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="contents" ID="ID_1372941290">
 <icon BUILTIN="emoji-1F648"/>
 <node TEXT="Description" ID="ID_1665938316">
@@ -157,8 +156,7 @@
       = edofro.MarkDownHelper.MDH.document(node)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
@@ -172,8 +170,7 @@
       in the description of the AddOn mindmap
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="**&apos;Map Saving Options&apos;** is a **Freeplane AddOn** that gives you the possibility to add **saving preferences** to **each** of your **maps**." ID="ID_1178934249"/>
 <node TEXT="Mindmaps can be used for different purposes and saving information like node&apos;s modification times depends most of the times on the map itself, its content and use case." ID="ID_246556838"/>
 <node TEXT="With this AddOn you can define if a map have to save the information of any of these:" ID="ID_779342075"/>
@@ -187,8 +184,7 @@
       = edofro.MarkDownHelper.MDH.list(node)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="folded and unfolded nodes" ID="ID_1587613978"/>
 <node TEXT="selected node when saving" ID="ID_967813648"/>
 <node TEXT="*Creation* and *Modification times* of each node" ID="ID_1968130487"/>
@@ -323,8 +319,7 @@
       More information about Add Ons and how to install them in Freeplane can be found in the oficial $1.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="web link" STYLE_REF="MarkdownHelperNode" ID="ID_475990360"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -363,8 +358,7 @@
       = edofro.MarkDownHelper.MDH.document(node)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
@@ -378,8 +372,7 @@
       clean vision of this section
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="How to use it" ID="ID_1822810559">
 <node TEXT="Menu commands" ID="ID_769226013">
 <node TEXT="After installing the Addon and restarting Freeplane, a new menu will appear in the **Freeplane&apos;s Menu Bar**" ID="ID_864806307"/>
@@ -393,8 +386,7 @@
       = edofro.MarkDownHelper.MDH.textBlock(node)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="menu route" ID="ID_1771285634"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -405,8 +397,7 @@
       You can get to the new commands by selecting the menu **$1 / $2**
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Edo Tools" ID="ID_203458071"/>
 <node TEXT="Map Saving Options" ID="ID_1010750653"/>
 </node>
@@ -421,8 +412,7 @@
       = edofro.MarkDownHelper.MDH.imageLink(node,true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_1570872075" LINK="#ID_1729035981"/>
 </node>
 </node>
@@ -437,8 +427,7 @@
       = edofro.MarkDownHelper.MDH.textBlock(node)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="change map preferences command" ID="ID_1106370616"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -446,7 +435,7 @@
   </head>
   <body>
     <p>
-      When selecting the &quot;$1&quot; command, A new dialog opens:
+      When selecting the &quot;$1&quot; command, a new dialog opens:
     </p>
   </body>
 </html>
@@ -464,8 +453,7 @@
       = edofro.MarkDownHelper.MDH.imageLink(node,true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_1338500327" LINK="#ID_1616963913"/>
 </node>
 <node TEXT="Here you can define if the current map will have its own saving preferences or if it should use the ones defined in the **Freeplane Preferences Dialog**." ID="ID_1263269837"/>
@@ -480,8 +468,7 @@
       = edofro.MarkDownHelper.MDH.imageLink(node,true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_1431433747" LINK="#ID_1867041804"/>
 </node>
 </node>
@@ -496,8 +483,7 @@
       = edofro.MarkDownHelper.MDH.textBlock(node)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="When saving a ma" ID="ID_1540759209"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -511,8 +497,7 @@
       &nbsp;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="After saving the status bar shows a message indicating the preferences used for saving the map:" ID="ID_51375174"/>
@@ -526,8 +511,7 @@
       = edofro.MarkDownHelper.MDH.imageLink(node,true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_664948170" LINK="#ID_497436342"/>
 </node>
 </node>
@@ -543,8 +527,7 @@
       = edofro.MarkDownHelper.MDH.imageLink(node,true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_1815728081" LINK="#ID_762219410"/>
 </node>
 </node>
@@ -556,6 +539,7 @@
 </node>
 <node TEXT="Your Help needed" ID="ID_175959378">
 <node TEXT="I&apos;m not very good at writing in english, so if you find any error please tell me (and please explain me how to write it correctly)" ID="ID_317675316"/>
+<node TEXT="I tried also to translate some of the texts to German. Please help me correct them." ID="ID_439149365"/>
 </node>
 <node TEXT="About Freeplane" ID="ID_1151383315">
 <node TEXT="text block" STYLE_REF="MarkdownHelperNode" ID="ID_924468549"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">

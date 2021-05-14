@@ -54,7 +54,7 @@ You can get to the new commands by selecting the menu **Edo Tools / Map Saving O
 
 ## 2. Assigning map preferences
 
-When selecting the "change saving options for this map" command, A new dialog opens:
+When selecting the "change saving options for this map" command, a new dialog opens:
 
 ![MSO_Image_002.png](Resources/MSO_Image_002.png)
 
@@ -92,6 +92,8 @@ Please report any bug in this addOn in its GitHub page
 # Your Help needed
 
 I'm not very good at writing in english, so if you find any error please tell me (and please explain me how to write it correctly)
+
+I tried also to translate some of the texts to German. Please help me correct them.
 
 # About Freeplane
 
