@@ -1,10 +1,84 @@
 <map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Map Saving Options" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_696401721" LINK="https://github.com/EdoFro/Freeplane_Map-Saving-Options">
-<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
-<attribute_layout NAME_WIDTH="112.5 pt" VALUE_WIDTH="112.5 pt"/>
+<node TEXT="Map Saving Options" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_1090958577" LINK="https://github.com/EdoFro/Freeplane_Map-Saving-Options" MAX_WIDTH="8 cm"><hook NAME="MapStyle" background="#f9f9f8">
+    <properties mapUsesOwnSaveOptions="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" .addon.mm="file" save_folding="never_save_folding" fit_to_viewport="false" save_modification_times="false" save_last_visited_node="default" show_note_icons="true"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_118736178" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 px" SHAPE_VERTICAL_MARGIN="2 px" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="2 px">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-13.5 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="Dialog" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
+<edge STYLE="horizontal" COLOR="#2e3440" WIDTH="1" DASH="SOLID"/>
+<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details" ID="ID_861824498" COLOR="#006666" BACKGROUND_COLOR="#a5cece" BACKGROUND_ALPHA="204" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true">
+<font NAME="Lucida Sans" SIZE="8"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes" ID="ID_199621123">
+<font NAME="Lucida Sans" SIZE="8"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" ID="ID_810825098" COLOR="#004600" BACKGROUND_COLOR="#e8e8c8" TEXT_ALIGN="LEFT">
+<icon BUILTIN="clock2"/>
+<font NAME="Consolas" SIZE="11"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating" ID="ID_608497754">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#eceff4" BACKGROUND_COLOR="#bf616a" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.important" ID="ID_915433779" BORDER_COLOR="#bf616a">
+<icon BUILTIN="yes"/>
+<arrowlink COLOR="#bf616a" TRANSPARENCY="255" DESTINATION="ID_915433779"/>
+<font NAME="Ubuntu" SIZE="14"/>
+<edge COLOR="#bf616a"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" ID="ID_1209359852" COLOR="#ffffff" BACKGROUND_COLOR="#484747" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="15 pt" TEXT_ALIGN="CENTER" MAX_WIDTH="4 cm" MIN_WIDTH="3 cm">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" ID="ID_144205114" COLOR="#eceff4" BACKGROUND_COLOR="#d08770" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" ID="ID_159773648" COLOR="#3b4252" BACKGROUND_COLOR="#ebcb8b">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#2e3440" BACKGROUND_COLOR="#a3be8c">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#2e3440" BACKGROUND_COLOR="#b48ead">
+<font SIZE="11"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5" COLOR="#e5e9f0" BACKGROUND_COLOR="#5e81ac">
+<font SIZE="11"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6" BACKGROUND_COLOR="#81a1c1">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7" BACKGROUND_COLOR="#88c0d0">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8" BACKGROUND_COLOR="#8fbcbb">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9" BACKGROUND_COLOR="#d8dee9">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10" BACKGROUND_COLOR="#e5e9f0">
+<font SIZE="9"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<attribute_layout NAME_WIDTH="99 pt" VALUE_WIDTH="96 pt"/>
 <attribute NAME="name" VALUE="mapSavingOptions"/>
-<attribute NAME="version" VALUE="v0.1.0-alpha-02"/>
+<attribute NAME="version" VALUE="v0.1.0"/>
 <attribute NAME="author" VALUE="EdoFro"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="v1.8.0"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
@@ -44,94 +118,7 @@
   </body>
 </html>
 </richcontent>
-<hook NAME="MapStyle" background="#f9f9f8">
-    <properties save_last_visited_node="false" save_modification_times="false" mapUsesOwnSaveOptions="true" show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" save_folding="never_save_folding"/>
-
-<map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_118736178" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
-<font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 px" SHAPE_VERTICAL_MARGIN="2 px" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="2 px" MAX_WIDTH="20 cm">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-11.25 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<font NAME="Dialog" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
-<edge STYLE="horizontal" COLOR="#2e3440" WIDTH="1" DASH="SOLID"/>
-<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.details" ID="ID_861824498" COLOR="#006666" BACKGROUND_COLOR="#a5cece" BACKGROUND_ALPHA="204" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true">
-<font NAME="Lucida Sans" SIZE="8"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.attributes" ID="ID_199621123">
-<font NAME="Lucida Sans" SIZE="8"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.note" ID="ID_810825098" COLOR="#004600" BACKGROUND_COLOR="#e8e8c8" TEXT_ALIGN="LEFT">
-<icon BUILTIN="clock2"/>
-<font NAME="Consolas" SIZE="11"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.floating" ID="ID_608497754">
-<edge STYLE="hide_edge"/>
-<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#eceff4" BACKGROUND_COLOR="#bf616a" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="styles.important" ID="ID_915433779" BORDER_COLOR="#bf616a">
-<icon BUILTIN="yes"/>
-<arrowlink COLOR="#bf616a" TRANSPARENCY="255" DESTINATION="ID_915433779"/>
-<font NAME="Ubuntu" SIZE="14"/>
-<edge COLOR="#bf616a"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
-<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
-<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
-<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
-</stylenode>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" ID="ID_1209359852" COLOR="#ffffff" BACKGROUND_COLOR="#484747" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt" UNIFORM_SHAPE="true" TEXT_ALIGN="CENTER">
-<font SIZE="18"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" ID="ID_144205114" COLOR="#eceff4" BACKGROUND_COLOR="#d08770" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
-<font SIZE="16"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" ID="ID_159773648" COLOR="#3b4252" BACKGROUND_COLOR="#ebcb8b">
-<font SIZE="14"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#2e3440" BACKGROUND_COLOR="#a3be8c">
-<font SIZE="12"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#2e3440" BACKGROUND_COLOR="#b48ead">
-<font SIZE="11"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5" COLOR="#e5e9f0" BACKGROUND_COLOR="#5e81ac">
-<font SIZE="11"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6" BACKGROUND_COLOR="#81a1c1">
-<font SIZE="10"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7" BACKGROUND_COLOR="#88c0d0">
-<font SIZE="10"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8" BACKGROUND_COLOR="#8fbcbb">
-<font SIZE="10"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9" BACKGROUND_COLOR="#d8dee9">
-<font SIZE="10"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10" BACKGROUND_COLOR="#e5e9f0">
-<font SIZE="9"/>
-</stylenode>
-</stylenode>
-</stylenode>
-</map_styles>
-</hook>
-<node TEXT="description" POSITION="left" ID="ID_1698280398">
-<edge COLOR="#ff0000"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="description" POSITION="left" ID="ID_1008923171"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -147,13 +134,10 @@
       To translate the description you have to define a translation for the key 'addons.${name}.description'.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="&apos;Map Saving Options&apos; is a Freeplane AddOn that gives you the possibility to add saving preferences to each of your maps.&#xa;Mindmaps can be used for different purposes and saving information like node&apos;s modification times depends most of the times on the map itself, its content and use case.&#xa;With this AddOn you can define if a map have to save the information of any of these:&#xa;- folded and unfolded nodes&#xa;- selected node when saving&#xa;- Creation and Modification times of each node&#xa;This way, you can define for each map if it will use the central Freeplane preferences, its own or a mix of both." ID="ID_1178934249"/>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_295987208">
-<edge COLOR="#0000ff"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="changes" POSITION="left" ID="ID_183122243"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -163,16 +147,14 @@
       Change log of this add-on: append one node for each noteworthy version and put the details for each version into a child node.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="v0.1.0-alpha-01" ID="ID_1067518300"/>
 <node TEXT="v0.1.0-alpha-02" ID="ID_1187728132">
 <node TEXT="scripts into JAR lib" ID="ID_1686968662"/>
+<node TEXT="added images and icon" ID="ID_1662992017"/>
 </node>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_1871691332" VGAP_QUANTITY="2 px">
-<edge COLOR="#00ff00"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="license" POSITION="left" ID="ID_172542263"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -188,13 +170,10 @@
       The License text has to be entered as a child of the <i>'license'</i>&nbsp;node, either as plain text or as HTML.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="MIT License&#xa;&#xa;Copyright (c) 2021 Eduardo Frohlich.&#xa;&#xa;Permission is hereby granted, free of charge, to any person obtaining a copy&#xa;of this software and associated documentation files (the &quot;Software&quot;), to deal&#xa;in the Software without restriction, including without limitation the rights&#xa;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&#xa;copies of the Software, and to permit persons to whom the Software is&#xa;furnished to do so, subject to the following conditions:&#xa;&#xa;The above copyright notice and this permission notice shall be included in all&#xa;copies or substantial portions of the Software.&#xa;&#xa;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&#xa;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&#xa;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&#xa;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&#xa;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&#xa;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&#xa;SOFTWARE." ID="ID_1379820487" VSHIFT_QUANTITY="-0.75 pt"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_1767417473">
-<edge COLOR="#ff00ff"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_852052318"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -207,13 +186,10 @@
       <font color="#000000" face="SansSerif, sans-serif">Every property in the configuration should receive a default value in <i>default.properties</i>&nbsp;node.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xa;&lt;preferences_structure&gt;&#xa;         &lt;tabbed_pane&gt;&#xa;                  &lt;tab name=&quot;plugins&quot;&gt;&#xa;                           &lt;separator name = &quot;mapSavingOptions&quot;&gt;&#xa;                                    &lt;boolean name = &quot;mapSavingOptions_forceDecisionOnSave&quot;/&gt;&#xa;                           &lt;/separator&gt;&#xa;                  &lt;/tab&gt;&#xa;         &lt;/tabbed_pane&gt;&#xa;&lt;/preferences_structure&gt;" ID="ID_1596559844" MAX_WIDTH="20 cm"/>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1558079371">
-<edge COLOR="#00ffff"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="default.properties" POSITION="left" ID="ID_1742785588"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -231,14 +207,10 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
-<attribute_layout NAME_WIDTH="184.49999 pt" VALUE_WIDTH="184.49999 pt"/>
+</html></richcontent>
 <attribute NAME="mapSavingOptions_forceDecisionOnSave" VALUE="true"/>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_1592852574">
-<edge COLOR="#7c0000"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="translations" POSITION="left" ID="ID_577488797"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -259,21 +231,36 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
-<node TEXT="en" ID="ID_1895187723">
-<attribute_layout NAME_WIDTH="263.99999 pt" VALUE_WIDTH="712.49998 pt"/>
+</html></richcontent>
+<node TEXT="en" ID="ID_111038637" MAX_WIDTH="20 cm">
+<attribute_layout NAME_WIDTH="256.49999 pt" VALUE_WIDTH="784.49998 pt"/>
 <attribute NAME="addons.${name}" VALUE="Map Saving Options"/>
 <attribute NAME="addons.${name}.changeSavingOptionsForMap" VALUE="change saving options for this map"/>
 <attribute NAME="addons.${name}.saveMapWithItsOwnPreferences" VALUE="save map using its own preferences"/>
 <attribute NAME="OptionPanel.separator.mapSavingOptions" VALUE="Map Saving Options AddOn"/>
-<attribute NAME="OptionPanel.mapSavingOptions_forceDecisionOnSave" VALUE="Force preferences decision on first save"/>
+<attribute NAME="OptionPanel.mapSavingOptions_forceDecisionOnSave" VALUE="Ask for saving preferences on map&apos;s first save"/>
+<attribute NAME="OptionPanel.mapSavingOptions_forceDecisionOnSave.tooltip" VALUE="If &apos;true&apos; the user must define when saving for the first time if the map will use the saving options defined in Freeplane&apos;s preferences or if it is going to use its own preferences."/>
+</node>
+<node TEXT="es" ID="ID_1445631626" MAX_WIDTH="20 cm">
+<attribute_layout NAME_WIDTH="256.49999 pt" VALUE_WIDTH="534.74998 pt"/>
+<attribute NAME="addons.${name}" VALUE="Map Saving Options"/>
+<attribute NAME="addons.${name}.changeSavingOptionsForMap" VALUE="cambiar opciones de guardado a mapa actual"/>
+<attribute NAME="addons.${name}.saveMapWithItsOwnPreferences" VALUE="guardar mapa usando sus propias preferencias"/>
+<attribute NAME="OptionPanel.separator.mapSavingOptions" VALUE="Map Saving Options AddOn"/>
+<attribute NAME="OptionPanel.mapSavingOptions_forceDecisionOnSave" VALUE="Solicitar preferenecias al guardar por primera vez"/>
+<attribute NAME="OptionPanel.mapSavingOptions_forceDecisionOnSave.tooltip" VALUE="Si se selecciona, cada vez que el usuario guarde por primera vez un mapa aparecerá un dialogo solicitando defina las opciones de guardado para ese mapa."/>
+</node>
+<node TEXT="de" ID="ID_883906612" MAX_WIDTH="20 cm">
+<attribute_layout NAME_WIDTH="256.49999 pt" VALUE_WIDTH="534.74998 pt"/>
+<attribute NAME="addons.${name}" VALUE="Map Saving Options"/>
+<attribute NAME="addons.${name}.changeSavingOptionsForMap" VALUE="Speicheroptionen für diesen Mindmap ändern"/>
+<attribute NAME="addons.${name}.saveMapWithItsOwnPreferences" VALUE="Mindmap mit eigenen Optionen speichern"/>
+<attribute NAME="OptionPanel.separator.mapSavingOptions" VALUE="Map Saving Options AddOn"/>
+<attribute NAME="OptionPanel.mapSavingOptions_forceDecisionOnSave" VALUE="Fragen um Speicheroptionen zum ersten Speicherung"/>
 <attribute NAME="OptionPanel.mapSavingOptions_forceDecisionOnSave.tooltip" VALUE="If &apos;true&apos; the user must define when saving for the first time if the map will use the saving options defined in Freeplane&apos;s preferences or if it is going to use its own preferences."/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_583549718">
-<edge COLOR="#00007c"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="deinstall" POSITION="left" ID="ID_989867455"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -283,17 +270,18 @@
       List of files and/or directories to remove on uninstall
     </p>
   </body>
-</html>
-</richcontent>
-<attribute_layout NAME_WIDTH="42.75 pt" VALUE_WIDTH="359.24999 pt"/>
+</html></richcontent>
+<attribute_layout VALUE_WIDTH="362.24999 pt"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/changeSavingOptionsForMap.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/saveMapWithItsOwnPreferences.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/MapSavingOptions.jar"/>
+<attribute NAME="delete" VALUE="${installationbase}/icons/MapSavingOptions/disk.svg"/>
+<attribute NAME="delete" VALUE="${installationbase}/resources/images/MapSavingOptions-screenshot-1.png"/>
+<attribute NAME="delete" VALUE="${installationbase}/resources/images/MapSavingOptions.png"/>
+<attribute NAME="delete" VALUE="${installationbase}/resources/images/MapSavingOptions-icon.png"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_1405990337">
-<edge COLOR="#007c00"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="scripts" POSITION="right" ID="ID_177272933"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -408,8 +396,7 @@
       &nbsp;&nbsp;- In any case set execute_scripts_without_asking to true unless you want to annoy users.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="changeSavingOptionsForMap.groovy" ID="ID_46748057" MAX_WIDTH="15 cm">
 <attribute_layout NAME_WIDTH="202.49999 pt" VALUE_WIDTH="212.99999 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.${name}.changeSavingOptionsForMap"/>
@@ -435,9 +422,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_1850488665">
-<edge COLOR="#7c007c"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="lib" POSITION="right" ID="ID_1735058912"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -471,13 +456,10 @@
       &nbsp;- The files will be processed in the sequence as seen in the map.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="MapSavingOptions.jar" ID="ID_186677092"/>
+</html></richcontent>
+<node TEXT="MapSavingOptions.jar" ID="ID_137457359"/>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_1313364019">
-<edge COLOR="#007c7c"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="zips" POSITION="right" ID="ID_249664385"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -511,12 +493,10 @@
       &nbsp;- The files will be processed in the sequence as seen in the map.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node TEXT="icons" ID="ID_1605806753"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_1884424072">
-<edge COLOR="#7c7c00"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="images" POSITION="right" ID="ID_1730274583"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -546,8 +526,10 @@
       Images can be added automatically by releaseAddOn.groovy or must be uploaded into the map via the script <i>Tools-&gt;Scripts-&gt;Insert Binary</i>&nbsp;since they have to be (base64) encoded as simple strings.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node TEXT="MapSavingOptions-screenshot-1.png" ID="ID_337958151"/>
+<node TEXT="MapSavingOptions.png" ID="ID_1271690628"/>
+<node TEXT="MapSavingOptions-icon.png" ID="ID_165335591"/>
 </node>
 </node>
 </map>
