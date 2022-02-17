@@ -1,14 +1,14 @@
-<map version="freeplane 1.9.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<map version="freeplane 1.9.13">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Map Saving Options" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_1090958577" LINK="https://github.com/EdoFro/Freeplane_Map-Saving-Options" MAX_WIDTH="8 cm"><hook NAME="MapStyle" background="#f9f9f8">
-    <properties mapUsesOwnSaveOptions="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" .addon.mm="file" save_folding="never_save_folding" fit_to_viewport="false" save_modification_times="false" save_last_visited_node="default" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" mapUsesOwnSaveOptions="true" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" save_folding="never_save_folding" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_118736178" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 px" SHAPE_VERTICAL_MARGIN="2 px" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="2 px">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-13.5 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-11.25 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="Dialog" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="horizontal" COLOR="#2e3440" WIDTH="1" DASH="SOLID"/>
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
@@ -28,7 +28,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#eceff4" BACKGROUND_COLOR="#bf616a" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#eceff4" BACKGROUND_COLOR="#bf616a" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.important" ID="ID_915433779" BORDER_COLOR="#bf616a">
@@ -76,13 +76,16 @@
 </stylenode>
 </map_styles>
 </hook>
-<attribute_layout NAME_WIDTH="99 pt" VALUE_WIDTH="96 pt"/>
+<attribute_layout NAME_WIDTH="112.5 pt" VALUE_WIDTH="329.99999 pt"/>
 <attribute NAME="name" VALUE="mapSavingOptions"/>
 <attribute NAME="version" VALUE="v0.1.0"/>
 <attribute NAME="author" VALUE="EdoFro"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="v1.8.0"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
 <attribute NAME="updateUrl" VALUE="https://github.com/EdoFro/Freeplane_Map-Saving-Options/releases/latest"/>
+<attribute NAME="downloadUrl" VALUE="${homepage}/"/>
+<attribute NAME="changelogUrl" VALUE=""/>
+<attribute NAME="addonsMenu" VALUE="/menu_bar/edoTools"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -114,10 +117,15 @@
       <li>
         updateUrl: URL of the file containing information (version, download url) on the latest version of this add-on. By default: &quot;${homepage}/version.properties&quot;
       </li>
+      <li>
+        addonsMenu: Defines the addon's main menu location, defaults menu 'main_menu_scripting'.<br/>Use developer tool menuItemInfo to inspect menu location keys.<br/>This attribute is mandatory.<br/>Example: '/menu_bar/myAddons'
+      </li>
+      <li>
+        downloadUrl: URL from the place where the AddOn file will be available for downloading.<br/>By default is the same as the homepage.<br/>You can define a different place or a subfolder of the homepage.<br/>Example: &quot;${homepage}/files/&quot;
+      </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="description" POSITION="left" ID="ID_1008923171"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -183,11 +191,106 @@
       <font color="#000000" face="SansSerif, sans-serif">The child node contains the add-on configuration as an extension to mindmapmodemenu.xml (in Tools-&gt;Preferences-&gt;Add-ons). </font>
     </p>
     <p>
-      <font color="#000000" face="SansSerif, sans-serif">Every property in the configuration should receive a default value in <i>default.properties</i>&nbsp;node.</font>
+      <font color="#000000" face="SansSerif, sans-serif">&nbsp;</font>
     </p>
+    <p>
+      <font color="#000000" face="SansSerif, sans-serif">Every property in the configuration should receive a default value in <i>default.properties</i>&nbsp;node. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>Automatic way (new since v0.9.30): </b>
+    </p>
+    <p>
+      you can add the preferences parameters as attributes to this node and then, by checking AddOn it will:
+    </p>
+    <ul>
+      <li>
+        create the child node containing <font color="#000000" face="SansSerif, sans-serif">the add-on configuration as an extension to mindmapmodemenu.xml</font>
+      </li>
+      <li>
+        add the properties to the <font color="#000000" face="SansSerif, sans-serif"><i>default.properties</i>&nbsp;node</font>
+      </li>
+      <li>
+        add the properties to the <i>translations</i><font color="#000000" face="SansSerif, sans-serif">&nbsp;node</font>
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      <b>How? </b>
+    </p>
+    <ul>
+      <li>
+        Add an attribute for each preference.
+      </li>
+      <li>
+        the attribute name should be the preference name.
+      </li>
+      <li>
+        as attribute value you should specify if it is a <b>boolean</b>, <b>string</b>&nbsp;or <b>number</b>&nbsp;preference
+      </li>
+      <li>
+        if it is a <b>number</b>&nbsp;preference. you should add the min and max value for it (separed by comma)
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      <b>Example: </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Attributes:
+    </p>
+    <table border="0" style="width: 80%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0">
+      <tr>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            isStudent
+          </p>
+        </td>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            boolean
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            userName
+          </p>
+        </td>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            string
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            birthMonth
+          </p>
+        </td>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            number,1,12
+          </p>
+        </td>
+      </tr>
+    </table>
   </body>
 </html></richcontent>
-<node TEXT="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xa;&lt;preferences_structure&gt;&#xa;         &lt;tabbed_pane&gt;&#xa;                  &lt;tab name=&quot;plugins&quot;&gt;&#xa;                           &lt;separator name = &quot;mapSavingOptions&quot;&gt;&#xa;                                    &lt;boolean name = &quot;mapSavingOptions_forceDecisionOnSave&quot;/&gt;&#xa;                           &lt;/separator&gt;&#xa;                  &lt;/tab&gt;&#xa;         &lt;/tabbed_pane&gt;&#xa;&lt;/preferences_structure&gt;" ID="ID_1596559844" MAX_WIDTH="20 cm"/>
+<attribute_layout NAME_WIDTH="113.25 pt" VALUE_WIDTH="56.25 pt"/>
+<attribute NAME="forceDecisionOnSave" VALUE="boolean"/>
+<node TEXT="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xa;&lt;preferences_structure&gt;&#xa;         &lt;tabbed_pane&gt;&#xa;                  &lt;tab name=&quot;plugins&quot;&gt;&#xa;                            &lt;separator name = &quot;${name}&quot;&gt;&#xa;                                    &lt;boolean name = &quot;${name}_forceDecisionOnSave&quot;/&gt;&#xa;                           &lt;/separator&gt;&#xa;                  &lt;/tab&gt;&#xa;         &lt;/tabbed_pane&gt;&#xa;&lt;/preferences_structure&gt;" ID="ID_1743672864" MAX_WIDTH="20 cm"/>
 </node>
 <node TEXT="default.properties" POSITION="left" ID="ID_1742785588"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -208,7 +311,8 @@
     </ul>
   </body>
 </html></richcontent>
-<attribute NAME="mapSavingOptions_forceDecisionOnSave" VALUE="true"/>
+<attribute_layout NAME_WIDTH="150.75 pt" VALUE_WIDTH="39.75 pt"/>
+<attribute NAME="${name}_forceDecisionOnSave" VALUE="true"/>
 </node>
 <node TEXT="translations" POSITION="left" ID="ID_577488797"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -233,13 +337,13 @@
   </body>
 </html></richcontent>
 <node TEXT="en" ID="ID_111038637" MAX_WIDTH="20 cm">
-<attribute_layout NAME_WIDTH="256.49999 pt" VALUE_WIDTH="784.49998 pt"/>
+<attribute_layout NAME_WIDTH="230.99999 pt" VALUE_WIDTH="728.99998 pt"/>
 <attribute NAME="addons.${name}" VALUE="Map Saving Options"/>
 <attribute NAME="addons.${name}.changeSavingOptionsForMap" VALUE="change saving options for this map"/>
 <attribute NAME="addons.${name}.saveMapWithItsOwnPreferences" VALUE="save map using its own preferences"/>
-<attribute NAME="OptionPanel.separator.mapSavingOptions" VALUE="Map Saving Options AddOn"/>
-<attribute NAME="OptionPanel.mapSavingOptions_forceDecisionOnSave" VALUE="Ask for saving preferences on map&apos;s first save"/>
-<attribute NAME="OptionPanel.mapSavingOptions_forceDecisionOnSave.tooltip" VALUE="If &apos;true&apos; the user must define when saving for the first time if the map will use the saving options defined in Freeplane&apos;s preferences or if it is going to use its own preferences."/>
+<attribute NAME="OptionPanel.separator.${name}" VALUE="Map Saving Options AddOn"/>
+<attribute NAME="OptionPanel.${name}_forceDecisionOnSave" VALUE="Ask for saving preferences on map&apos;s first save"/>
+<attribute NAME="OptionPanel.${name}_forceDecisionOnSave.tooltip" VALUE="If &apos;true&apos; the user must define when saving for the first time if the map will use the saving options defined in Freeplane&apos;s preferences or if it is going to use its own preferences."/>
 </node>
 <node TEXT="es" ID="ID_1445631626" MAX_WIDTH="20 cm">
 <attribute_layout NAME_WIDTH="256.49999 pt" VALUE_WIDTH="534.74998 pt"/>
@@ -398,9 +502,8 @@
   </body>
 </html></richcontent>
 <node TEXT="changeSavingOptionsForMap.groovy" ID="ID_46748057" MAX_WIDTH="15 cm">
-<attribute_layout NAME_WIDTH="202.49999 pt" VALUE_WIDTH="212.99999 pt"/>
+<attribute_layout NAME_WIDTH="209.24999 pt" VALUE_WIDTH="210.74999 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.${name}.changeSavingOptionsForMap"/>
-<attribute NAME="menuLocation" VALUE="/menu_bar/edoTools/addons.${name}"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE=""/>
 <attribute NAME="execute_scripts_without_asking" VALUE="true"/>
@@ -408,11 +511,11 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
+<attribute NAME="menuLocation" VALUE="${addonsMenu}/addons.${name}"/>
 </node>
 <node TEXT="saveMapWithItsOwnPreferences.groovy" ID="ID_479095027" MAX_WIDTH="15 cm">
-<attribute_layout NAME_WIDTH="196.49999 pt" VALUE_WIDTH="224.99999 pt"/>
+<attribute_layout NAME_WIDTH="209.24999 pt" VALUE_WIDTH="221.99999 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.${name}.saveMapWithItsOwnPreferences"/>
-<attribute NAME="menuLocation" VALUE="/menu_bar/edoTools/addons.${name}"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control S"/>
 <attribute NAME="execute_scripts_without_asking" VALUE="true"/>
@@ -420,6 +523,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="true"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
+<attribute NAME="menuLocation" VALUE="${addonsMenu}/addons.${name}"/>
 </node>
 </node>
 <node TEXT="lib" POSITION="right" ID="ID_1735058912"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -530,6 +634,20 @@
 <node TEXT="MapSavingOptions-screenshot-1.png" ID="ID_337958151"/>
 <node TEXT="MapSavingOptions.png" ID="ID_1271690628"/>
 <node TEXT="MapSavingOptions-icon.png" ID="ID_165335591"/>
+</node>
+<node TEXT="actions" POSITION="right" ID="ID_920376721"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    Direct links to menu commands
+  </body>
+</html></richcontent>
+<node TEXT="Build add-on" ID="ID_408084343" LINK="menuitem:_addons.devtools.checkAddOn_on_single_node"/>
+<node TEXT="Package add-on for publication" ID="ID_511628550" LINK="menuitem:_addons.devtools.releaseAddOn_on_single_node"/>
+<node TEXT="Export Translations" ID="ID_15366076" LINK="menuitem:_addons.devtools.exportTranslations_on_single_node"/>
+<node TEXT="Import Translations" ID="ID_250415991" LINK="menuitem:_addons.devtools.importTranslations_on_single_node"/>
 </node>
 </node>
 </map>

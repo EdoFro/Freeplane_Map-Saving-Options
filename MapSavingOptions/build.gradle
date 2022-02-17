@@ -1,10 +1,12 @@
+//MapSavingOptions
+
 apply plugin: 'groovy'
 
 targetCompatibility='1.8'
 
 libsDirName = "${rootDir}/lib"
 clean.doFirst { delete "${rootDir}/lib" }
-//clean.doFirst { delete "${rootDir}/lib/WikdShellExtension.jar" } //asÌ lo usÈ en wikdshellext. para eliminar sÛlo una de las .jar y que no me borrara WikdShell.jar
+//clean.doFirst { delete "${rootDir}/lib/WikdShellExtension.jar" } //as√≠ lo us√© en wikdshellext. para eliminar s√≥lo una de las .jar y que no me borrara WikdShell.jar
 
 repositories {
     mavenCentral()
@@ -13,15 +15,15 @@ repositories {
         "C:/Program Files/Freeplane",
         "C:/Program Files/Freeplane/core/org.freeplane.core/lib",
                   "C:/Program Files/Freeplane/plugins/org.freeplane.plugin.script/lib"
-        //, "${rootDir}/lib" //asÌ lo usÈ en wikdshellext, porque ahÌ puse WikdShell.jar
+        //, "${rootDir}/lib" //as√≠ lo us√© en wikdshellext, porque ah√≠ puse WikdShell.jar
          ]
 
-    // AsÌ para cuando Freeplane est· en Portable Apps
+    // As√≠ para cuando Freeplane est√° en Portable Apps
         // dirs: [
         // "C:/PortableApps/FreeplanePortable/App/Freeplane",
         // "C:/PortableApps/FreeplanePortable/App/Freeplane/core/org.freeplane.core/lib",
         // "C:/PortableApps/FreeplanePortable/App/Freeplane/plugins/org.freeplane.plugin.script/lib",
-        // "${rootDir}/lib" //asÌ lo usÈ en wikdshellext, porque ahÌ puse WikdShell.jar
+        // "${rootDir}/lib" //as√≠ lo us√© en wikdshellext, porque ah√≠ puse WikdShell.jar
         // ]
 }
 
@@ -30,7 +32,7 @@ dependencies {
     compile name: 'freeplaneviewer'
     compile group: 'org.freeplane.core', name: 'freeplaneeditor', version:"+"
     compile group: 'org.freeplane.script', name: 'plugin', version: '+'
-    // compile name: 'WikdShell' //asÌ lo usÈ en wikdshellext.
+    // compile name: 'WikdShell' //as√≠ lo us√© en wikdshellext.
     compile ('org.codehaus.groovy:groovy-all:3.0.1') {
         exclude group:'org.codehaus.groovy', module:'groovy-test'
         exclude group:'org.codehaus.groovy', module:'groovy-test-junit5'
